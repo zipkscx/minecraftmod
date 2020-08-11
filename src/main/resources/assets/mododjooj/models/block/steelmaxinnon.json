@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mododjooj:blocks/furnacebaixoo",
+    "up": "mododjooj:blocks/furnacccetop",
+    "north": "mododjooj:blocks/furrusdson",
+    "east": "mododjooj:blocks/maxxxxinside",
+    "south": "mododjooj:blocks/maxxxxinside",
+    "west": "mododjooj:blocks/maxxxxinside",
+    "particle": "mododjooj:blocks/furnacebaixoo"
+  }
+}

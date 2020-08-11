@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Tigo's Additions",
+    "icon": {
+      "value": "CUSTOM:Marblebase"
+    },
+    "showSearch": false
+  }
+}

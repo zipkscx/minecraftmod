@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mododjooj:blocks/quartz",
+    "up": "mododjooj:blocks/quartz",
+    "north": "mododjooj:blocks/quartz",
+    "east": "mododjooj:blocks/quartz",
+    "south": "mododjooj:blocks/quartz",
+    "west": "mododjooj:blocks/quartz",
+    "particle": "mododjooj:blocks/quartz"
+  }
+}

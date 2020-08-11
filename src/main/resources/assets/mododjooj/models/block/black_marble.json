@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mododjooj:blocks/preto",
+    "up": "mododjooj:blocks/preto",
+    "north": "mododjooj:blocks/preto",
+    "east": "mododjooj:blocks/preto",
+    "south": "mododjooj:blocks/preto",
+    "west": "mododjooj:blocks/preto",
+    "particle": "mododjooj:blocks/preto"
+  }
+}

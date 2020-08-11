@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mododjooj:blocks/steel_ore_block",
+    "particle": "mododjooj:blocks/steel_ore_block"
+  }
+}

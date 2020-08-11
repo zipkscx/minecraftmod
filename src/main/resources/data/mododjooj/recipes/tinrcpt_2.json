@@ -1,0 +1,12 @@
+{
+  "group": "mododjooj",
+  "type": "minecraft:smelting",
+  "experience": 0,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mododjooj:tindust"
+  },
+  "result": {
+    "item": "mododjooj:tiningot"
+  }
+}

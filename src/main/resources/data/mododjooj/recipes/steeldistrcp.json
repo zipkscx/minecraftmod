@@ -1,0 +1,19 @@
+{
+  "group": "mododjooj",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mododjooj:coaldust"
+    },
+    {
+      "item": "mododjooj:irondust"
+    },
+    {
+      "item": "mododjooj:coaldust"
+    }
+  ],
+  "result": {
+    "item": "mododjooj:steel_dust",
+    "count": 1
+  }
+}

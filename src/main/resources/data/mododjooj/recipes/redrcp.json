@@ -1,0 +1,16 @@
+{
+  "group": "mododjooj",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "mododjooj:redmb",
+    "count": 1
+  }
+}

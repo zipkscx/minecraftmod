@@ -1,0 +1,16 @@
+{
+  "group": "mododjooj",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "mododjooj:blue_mb",
+    "count": 1
+  }
+}

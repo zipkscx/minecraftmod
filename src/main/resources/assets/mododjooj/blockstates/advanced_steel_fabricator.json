@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mododjooj:block/advanced_steel_fabricator"
+    },
+    "facing=east": {
+      "model": "mododjooj:block/advanced_steel_fabricator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mododjooj:block/advanced_steel_fabricator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mododjooj:block/advanced_steel_fabricator",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "mododjooj",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mododjooj:steel_ore_block"
+    }
+  ],
+  "result": {
+    "item": "mododjooj:steel_ingot",
+    "count": 9
+  }
+}

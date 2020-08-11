@@ -1,0 +1,60 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 336,
+          "y": 150
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 480,
+          "y": 150
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "seta.png",
+          "name": "seta.png",
+          "x": 408,
+          "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Basic Rubber Extractor",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Basic Rubber Extractor",
+          "x": 264,
+          "y": 114
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "mododjooj",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mododjooj:copper_dust"
+    },
+    {
+      "item": "mododjooj:copper_dust"
+    },
+    {
+      "item": "mododjooj:copper_dust"
+    },
+    {
+      "item": "mododjooj:tindust"
+    }
+  ],
+  "result": {
+    "item": "mododjooj:bronzedust",
+    "count": 4
+  }
+}

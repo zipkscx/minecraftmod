@@ -1,0 +1,53 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 408,
+          "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Coal Generator",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Coal Generator",
+          "x": 264,
+          "y": 114
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Energy: <energy>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Energy: <energy>",
+          "x": 263,
+          "y": 188
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "group": "mododjooj",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "mododjooj:marblebase"
+    },
+    "1": {
+      "item": "mododjooj:blue_mb"
+    }
+  },
+  "result": {
+    "item": "mododjooj:blue_marble",
+    "count": 1
+  }
+}

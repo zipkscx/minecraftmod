@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mododjooj:blocks/pinkmarble",
+    "up": "mododjooj:blocks/pinkmarble",
+    "north": "mododjooj:blocks/pinkmarble",
+    "east": "mododjooj:blocks/pinkmarble",
+    "south": "mododjooj:blocks/pinkmarble",
+    "west": "mododjooj:blocks/pinkmarble",
+    "particle": "mododjooj:blocks/pinkmarble"
+  }
+}

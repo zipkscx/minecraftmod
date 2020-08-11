@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mododjooj:blocks/cooperore",
+    "up": "mododjooj:blocks/cooperore",
+    "north": "mododjooj:blocks/cooperore",
+    "east": "mododjooj:blocks/cooperore",
+    "south": "mododjooj:blocks/cooperore",
+    "west": "mododjooj:blocks/cooperore",
+    "particle": "mododjooj:blocks/cooperore"
+  }
+}

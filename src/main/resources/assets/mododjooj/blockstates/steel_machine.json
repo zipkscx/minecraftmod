@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mododjooj:block/steel_machine"
+    },
+    "facing=east": {
+      "model": "mododjooj:block/steel_machine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mododjooj:block/steel_machine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mododjooj:block/steel_machine",
+      "y": 270
+    }
+  }
+}

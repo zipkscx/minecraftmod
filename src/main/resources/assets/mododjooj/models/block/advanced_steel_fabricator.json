@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mododjooj:blocks/electricbottom",
+    "up": "mododjooj:blocks/electricitoptotp",
+    "north": "mododjooj:blocks/electricsteelfurnace",
+    "east": "mododjooj:blocks/electricside",
+    "south": "mododjooj:blocks/electricside",
+    "west": "mododjooj:blocks/electricside",
+    "particle": "mododjooj:blocks/electricbottom"
+  }
+}

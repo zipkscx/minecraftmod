@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mododjooj:block/coal_generator"
+    },
+    "facing=east": {
+      "model": "mododjooj:block/coal_generator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mododjooj:block/coal_generator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mododjooj:block/coal_generator",
+      "y": 270
+    }
+  }
+}

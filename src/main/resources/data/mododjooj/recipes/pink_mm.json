@@ -1,0 +1,16 @@
+{
+  "group": "mododjooj",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mododjooj:marblebase"
+    },
+    {
+      "item": "mododjooj:pink_mb"
+    }
+  ],
+  "result": {
+    "item": "mododjooj:pink_marble",
+    "count": 1
+  }
+}
