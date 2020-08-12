@@ -160,12 +160,12 @@ public class CompressorsimpleeProcedure extends MododjoojModElements.ModElement 
 							}.getValue(new BlockPos((int) x, (int) y, (int) z), "fuel")) - 1));
 						world.getWorld().notifyBlockUpdate(_bp, _bs, _bs, 3);
 					}
-					{
-						TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-						if (_ent != null) {
-							final int _sltid = (int) (3);
-							final ItemStack _setstack = new ItemStack(CompressedironItem.block, (int) (1));
-							_setstack.setCount((int) ((new Object() {
+					if (!world.getWorld().isRemote) {
+						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putDouble("steel", ((new Object() {
 								public double getValue(BlockPos pos, String tag) {
 									TileEntity tileEntity = world.getTileEntity(pos);
 									if (tileEntity != null)
@@ -173,6 +173,21 @@ public class CompressorsimpleeProcedure extends MododjoojModElements.ModElement 
 									return -1;
 								}
 							}.getValue(new BlockPos((int) x, (int) y, (int) z), "steel")) + 1));
+						world.getWorld().notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+					{
+						TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+						if (_ent != null) {
+							final int _sltid = (int) (3);
+							final ItemStack _setstack = new ItemStack(CompressedironItem.block, (int) (1));
+							_setstack.setCount((int) (new Object() {
+								public double getValue(BlockPos pos, String tag) {
+									TileEntity tileEntity = world.getTileEntity(pos);
+									if (tileEntity != null)
+										return tileEntity.getTileData().getDouble(tag);
+									return -1;
+								}
+							}.getValue(new BlockPos((int) x, (int) y, (int) z), "steel")));
 							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
