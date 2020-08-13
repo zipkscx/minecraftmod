@@ -48,11 +48,13 @@
   "block.mododjooj.steelmaxinnon": "Steel Machine ON",
   "block.mododjooj.copper_ore": "Copper Ore",
   "item.mododjooj.compressediron": "Compressed Iron",
+  "item.mododjooj.espada": "Espada ",
   "item.mododjooj.redmb": "Red Bowl",
   "item.mododjooj.copper_dust": "Copper Dust",
   "item.mododjooj.steel_shovel": "Steel Shovel",
   "item.mododjooj.steel_sword": "Steel Sword",
   "item.mododjooj.steel_armor_chestplate": "Steel Chestplate",
+  "itemGroup.tabmodespada": "Espada Rainbow ",
   "block.mododjooj.green_marble": "Green Marble",
   "item.mododjooj.steel_dust": "Steel Dust"
 }
