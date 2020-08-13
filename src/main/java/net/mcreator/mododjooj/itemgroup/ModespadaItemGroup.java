@@ -1,17 +1,9 @@
 
 package net.mcreator.mododjooj.itemgroup;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-
-import net.mcreator.mododjooj.item.EspadaItem;
-import net.mcreator.mododjooj.MododjoojModElements;
-
 @MododjoojModElements.ModElement.Tag
 public class ModespadaItemGroup extends MododjoojModElements.ModElement {
+
 	public ModespadaItemGroup(MododjoojModElements instance) {
 		super(instance, 106);
 	}
@@ -31,5 +23,7 @@ public class ModespadaItemGroup extends MododjoojModElements.ModElement {
 			}
 		};
 	}
+
 	public static ItemGroup tab;
+
 }

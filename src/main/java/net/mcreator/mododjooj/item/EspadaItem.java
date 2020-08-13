@@ -1,20 +1,12 @@
 
 package net.mcreator.mododjooj.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.mododjooj.itemgroup.TigoguiItemGroup;
-import net.mcreator.mododjooj.MododjoojModElements;
-
 @MododjoojModElements.ModElement.Tag
 public class EspadaItem extends MododjoojModElements.ModElement {
+
 	@ObjectHolder("mododjooj:espada")
 	public static final Item block = null;
+
 	public EspadaItem(MododjoojModElements instance) {
 		super(instance, 105);
 	}
@@ -46,6 +38,8 @@ public class EspadaItem extends MododjoojModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -3f, new Item.Properties().group(TigoguiItemGroup.tab)) {
+
 		}.setRegistryName("espada"));
 	}
+
 }

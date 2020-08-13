@@ -1026,24 +1026,6 @@
       "registry_name": "basic_compressor"
     },
     {
-      "name": "Extractorguibasic",
-      "type": "gui",
-      "sortid": 103,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "extractorguibasic"
-    },
-    {
-      "name": "BasicRubberExtractor",
-      "type": "block",
-      "sortid": 103,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "basic_rubber_extractor"
-    },
-    {
       "name": "Resinaaa",
       "type": "item",
       "sortid": 104,
@@ -1053,13 +1035,40 @@
       "registry_name": "resinaaa"
     },
     {
-      "name": "Rubberextractorbasicprocetdue",
-      "type": "procedure",
-      "sortid": 104,
+      "name": "Modespada",
+      "type": "tab",
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rubberextractorbasicprocetdue",
+      "registry_name": "modespada"
+    },
+    {
+      "name": "Espada",
+      "type": "tool",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espada"
+    },
+    {
+      "name": "Extractorgui",
+      "type": "gui",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extractorgui"
+    },
+    {
+      "name": "Extractorprocedure",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extractorprocedure",
       "metadata": {
         "dependencies": [
           {
@@ -1082,22 +1091,13 @@
       }
     },
     {
-      "name": "Espada",
-      "type": "tool",
-      "sortid": 105,
+      "name": "Extractorbasicc",
+      "type": "block",
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "espada"
-    },
-    {
-      "name": "Modespada",
-      "type": "tab",
-      "sortid": 106,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "modespada"
+      "registry_name": "extractorbasicc"
     }
   ],
   "variable_elements": [],
@@ -1108,11 +1108,11 @@
       "item.mododjooj.tindust": "Tin Dust",
       "block.mododjooj.basic_machine_block": "Basic Machine Block",
       "item.mododjooj.steel_armor_helmet": "Steel Helmet",
-      "itemGroup.tabtigogui": "Tigo\u0027s Additions",
       "item.mododjooj.irondust": "Iron Dust",
+      "itemGroup.tabtigogui": "Tigo\u0027s Additions",
       "item.mododjooj.cyan_mb": "Cyan Bowl",
-      "item.mododjooj.whitemb": "White Bowl",
       "block.mododjooj.tin_ore": "Tin Ore",
+      "item.mododjooj.whitemb": "White Bowl",
       "block.mododjooj.blue_marble": "Blue Marble",
       "item.mododjooj.blue_mb": "Blue Bowl",
       "item.mododjooj.steel_axe": "Steel Axe",
@@ -1153,13 +1153,11 @@
       "block.mododjooj.steelmaxinnon": "Steel Machine ON",
       "block.mododjooj.copper_ore": "Copper Ore",
       "item.mododjooj.compressediron": "Compressed Iron",
-      "item.mododjooj.espada": "Espada ",
       "item.mododjooj.redmb": "Red Bowl",
       "item.mododjooj.copper_dust": "Copper Dust",
       "item.mododjooj.steel_shovel": "Steel Shovel",
       "item.mododjooj.steel_sword": "Steel Sword",
       "item.mododjooj.steel_armor_chestplate": "Steel Chestplate",
-      "itemGroup.tabmodespada": "Espada Rainbow ",
       "block.mododjooj.green_marble": "Green Marble",
       "item.mododjooj.steel_dust": "Steel Dust"
     }
