@@ -11,7 +11,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.Capability;
-import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.server.ServerWorld;
@@ -55,9 +54,9 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.mododjooj.procedures.RubberextractorbasicprocetdueProcedure;
+import net.mcreator.mododjooj.procedures.ExtractorprocedureProcedure;
 import net.mcreator.mododjooj.itemgroup.TigoguiItemGroup;
-import net.mcreator.mododjooj.gui.ExtractorguibasicGui;
+import net.mcreator.mododjooj.gui.ExtractorguiGui;
 import net.mcreator.mododjooj.MododjoojModElements;
 
 import javax.annotation.Nullable;
@@ -72,13 +71,13 @@ import java.util.Collections;
 import io.netty.buffer.Unpooled;
 
 @MododjoojModElements.ModElement.Tag
-public class BasicRubberExtractorBlock extends MododjoojModElements.ModElement {
-	@ObjectHolder("mododjooj:basic_rubber_extractor")
+public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
+	@ObjectHolder("mododjooj:extractorbasicc")
 	public static final Block block = null;
-	@ObjectHolder("mododjooj:basic_rubber_extractor")
+	@ObjectHolder("mododjooj:extractorbasicc")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-	public BasicRubberExtractorBlock(MododjoojModElements instance) {
-		super(instance, 103);
+	public ExtractorbasiccBlock(MododjoojModElements instance) {
+		super(instance, 107);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -90,21 +89,19 @@ public class BasicRubberExtractorBlock extends MododjoojModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-		event.getRegistry()
-				.register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("basic_rubber_extractor"));
+		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("extractorbasicc"));
 	}
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("basic_rubber_extractor");
+			setRegistryName("extractorbasicc");
 		}
 
 		@Override
 		public int tickRate(IWorldReader world) {
-			return 1;
+			return 120;
 		}
 
 		@Override
@@ -154,7 +151,7 @@ public class BasicRubberExtractorBlock extends MododjoojModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				RubberextractorbasicprocetdueProcedure.executeProcedure($_dependencies);
+				ExtractorprocedureProcedure.executeProcedure($_dependencies);
 			}
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
@@ -175,7 +172,7 @@ public class BasicRubberExtractorBlock extends MododjoojModElements.ModElement {
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new ExtractorguibasicGui.GuiContainerMod(id, inventory,
+						return new ExtractorguiGui.GuiContainerMod(id, inventory,
 								new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
 					}
 				}, new BlockPos(x, y, z));
@@ -287,7 +284,7 @@ public class BasicRubberExtractorBlock extends MododjoojModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("basic_rubber_extractor");
+			return new StringTextComponent("extractorbasicc");
 		}
 
 		@Override
@@ -297,7 +294,7 @@ public class BasicRubberExtractorBlock extends MododjoojModElements.ModElement {
 
 		@Override
 		public Container createMenu(int id, PlayerInventory player) {
-			return new ExtractorguibasicGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
+			return new ExtractorguiGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
 		}
 
 		@Override

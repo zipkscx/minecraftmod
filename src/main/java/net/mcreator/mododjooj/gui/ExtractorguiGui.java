@@ -42,11 +42,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @MododjoojModElements.ModElement.Tag
-public class ExtractorguibasicGui extends MododjoojModElements.ModElement {
+public class ExtractorguiGui extends MododjoojModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public ExtractorguibasicGui(MododjoojModElements instance) {
-		super(instance, 103);
+	public ExtractorguiGui(MododjoojModElements instance) {
+		super(instance, 105);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -62,7 +62,7 @@ public class ExtractorguibasicGui extends MododjoojModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-		event.getRegistry().register(containerType.setRegistryName("extractorguibasic"));
+		event.getRegistry().register(containerType.setRegistryName("extractorgui"));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -303,7 +303,7 @@ public class ExtractorguibasicGui extends MododjoojModElements.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("mododjooj:textures/extractorguibasic.png");
+		private static final ResourceLocation texture = new ResourceLocation("mododjooj:textures/extractorgui.png");
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground();
@@ -338,7 +338,7 @@ public class ExtractorguibasicGui extends MododjoojModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("Basic Rubber Extractor", 7, 20, -1);
+			this.font.drawString("Basic Latex Extractor", 16, 20, -1);
 		}
 
 		@Override

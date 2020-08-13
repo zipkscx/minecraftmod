@@ -30,7 +30,7 @@
     "creativeTab": {
       "value": "CUSTOM:Tigogui"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -43,7 +43,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 1,
+    "tickRate": 120,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -72,7 +72,7 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": true,
-    "guiBoundTo": "Extractorguibasic",
+    "guiBoundTo": "Extractorgui",
     "openGUIOnRightClick": true,
     "inventorySize": 2,
     "inventoryStackSize": 64,
@@ -93,7 +93,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "Rubberextractorbasicprocetdue"
+      "name": "Extractorprocedure"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

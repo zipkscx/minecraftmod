@@ -1026,24 +1026,6 @@
       "registry_name": "basic_compressor"
     },
     {
-      "name": "Extractorguibasic",
-      "type": "gui",
-      "sortid": 103,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "extractorguibasic"
-    },
-    {
-      "name": "BasicRubberExtractor",
-      "type": "block",
-      "sortid": 103,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "basic_rubber_extractor"
-    },
-    {
       "name": "Resinaaa",
       "type": "item",
       "sortid": 104,
@@ -1053,13 +1035,22 @@
       "registry_name": "resinaaa"
     },
     {
-      "name": "Rubberextractorbasicprocetdue",
-      "type": "procedure",
-      "sortid": 104,
+      "name": "Extractorgui",
+      "type": "gui",
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rubberextractorbasicprocetdue",
+      "registry_name": "extractorgui"
+    },
+    {
+      "name": "Extractorprocedure",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extractorprocedure",
       "metadata": {
         "dependencies": [
           {
@@ -1080,6 +1071,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Extractorbasicc",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extractorbasicc"
     }
   ],
   "variable_elements": [],
@@ -1106,6 +1106,7 @@
       "block.mododjooj.basic_compressor": "Basic Compressor",
       "item.mododjooj.steel_armor_leggings": "Steel Leggings",
       "item.mododjooj.steel_pickaxe": "Steel Pickaxe",
+      "block.mododjooj.extractorbasicc": "Basic Latex Extractor",
       "item.mododjooj.steel_hoe": "Steel Hoe",
       "item.mododjooj.greenmb": "Green Bowl",
       "item.mododjooj.compressed_bronze": "Compressed Bronze",
@@ -1126,7 +1127,6 @@
       "block.mododjooj.steel_machine": "Simple Blast Furnace",
       "item.mododjooj.press": "Iron Press",
       "item.mododjooj.copperingot": "Copper Ingot",
-      "block.mododjooj.basic_rubber_extractor": "Basic Latex Extractor",
       "item.mododjooj.coaldust": "Coal Dust",
       "block.mododjooj.steel_ore_block": "Block of Steel",
       "item.mododjooj.bronze_ingot": "Bronze Ingot",

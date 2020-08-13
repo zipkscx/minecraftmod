@@ -23,6 +23,15 @@
         }
       },
       {
+        "type": "image",
+        "data": {
+          "image": "seta.png",
+          "name": "seta.png",
+          "x": 408,
+          "y": 150
+        }
+      },
+      {
         "type": "outputslot",
         "data": {
           "id": 1,
@@ -34,24 +43,15 @@
         }
       },
       {
-        "type": "image",
-        "data": {
-          "image": "seta.png",
-          "name": "seta.png",
-          "x": 408,
-          "y": 150
-        }
-      },
-      {
         "type": "label",
         "data": {
-          "text": "Basic Rubber Extractor",
+          "text": "Basic Latex Extractor",
           "color": {
             "value": -1,
             "falpha": 0.0
           },
-          "name": "Basic Rubber Extractor",
-          "x": 264,
+          "name": "Basic Latex Extractor",
+          "x": 282,
           "y": 114
         }
       }

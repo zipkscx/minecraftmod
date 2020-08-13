@@ -1,5 +1,5 @@
 {
-  "parent": "mododjooj:block/basic_rubber_extractor",
+  "parent": "mododjooj:block/extractorbasicc",
   "display": {
     "thirdperson": {
       "rotation": [
