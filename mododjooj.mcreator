@@ -1098,6 +1098,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "extractorbasicc"
+    },
+    {
+      "name": "Rainbow",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow"
     }
   ],
   "variable_elements": [],
@@ -1108,11 +1117,11 @@
       "item.mododjooj.tindust": "Tin Dust",
       "block.mododjooj.basic_machine_block": "Basic Machine Block",
       "item.mododjooj.steel_armor_helmet": "Steel Helmet",
-      "itemGroup.tabtigogui": "Tigo\u0027s Additions",
       "item.mododjooj.irondust": "Iron Dust",
+      "itemGroup.tabtigogui": "Tigo\u0027s Additions",
       "item.mododjooj.cyan_mb": "Cyan Bowl",
-      "item.mododjooj.whitemb": "White Bowl",
       "block.mododjooj.tin_ore": "Tin Ore",
+      "item.mododjooj.whitemb": "White Bowl",
       "block.mododjooj.blue_marble": "Blue Marble",
       "item.mododjooj.blue_mb": "Blue Bowl",
       "item.mododjooj.steel_axe": "Steel Axe",
@@ -1127,6 +1136,7 @@
       "item.mododjooj.steel_hoe": "Steel Hoe",
       "item.mododjooj.greenmb": "Green Bowl",
       "item.mododjooj.compressed_bronze": "Compressed Bronze",
+      "item.mododjooj.rainbow": "Rainbow ",
       "block.mododjooj.cyan_marble": "Cyan Marble",
       "block.mododjooj.marble": "Marble",
       "item.mododjooj.steel_ingot": "Steel",
