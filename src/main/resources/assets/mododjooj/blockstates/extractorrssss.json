@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "mododjooj:block/extractorrssss"
+    },
+    "facing=east": {
+      "model": "mododjooj:block/extractorrssss",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mododjooj:block/extractorrssss",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mododjooj:block/extractorrssss",
+      "y": 270
     }
   }
 }
