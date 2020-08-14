@@ -1035,15 +1035,6 @@
       "registry_name": "resinaaa"
     },
     {
-      "name": "Modespada",
-      "type": "tab",
-      "sortid": 106,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "modespada"
-    },
-    {
       "name": "Espada",
       "type": "tool",
       "sortid": 105,
@@ -1051,15 +1042,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "espada"
-    },
-    {
-      "name": "Extractorgui",
-      "type": "gui",
-      "sortid": 105,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "extractorgui"
     },
     {
       "name": "Extractorprocedure",
@@ -1091,15 +1073,6 @@
       }
     },
     {
-      "name": "Extractorbasicc",
-      "type": "block",
-      "sortid": 107,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "extractorbasicc"
-    },
-    {
       "name": "Rainbow",
       "type": "item",
       "sortid": 107,
@@ -1107,6 +1080,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rainbow"
+    },
+    {
+      "name": "Extractorguisss",
+      "type": "gui",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extractorguisss"
+    },
+    {
+      "name": "Extractorrssss",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extractorrssss"
     }
   ],
   "variable_elements": [],
@@ -1122,6 +1113,7 @@
       "item.mododjooj.cyan_mb": "Cyan Bowl",
       "block.mododjooj.tin_ore": "Tin Ore",
       "item.mododjooj.whitemb": "White Bowl",
+      "block.mododjooj.extractorrssss": "Basic Latex Extractor",
       "block.mododjooj.blue_marble": "Blue Marble",
       "item.mododjooj.blue_mb": "Blue Bowl",
       "item.mododjooj.steel_axe": "Steel Axe",
@@ -1163,6 +1155,7 @@
       "block.mododjooj.steelmaxinnon": "Steel Machine ON",
       "block.mododjooj.copper_ore": "Copper Ore",
       "item.mododjooj.compressediron": "Compressed Iron",
+      "item.mododjooj.espada": "Espada ",
       "item.mododjooj.redmb": "Red Bowl",
       "item.mododjooj.copper_dust": "Copper Dust",
       "item.mododjooj.steel_shovel": "Steel Shovel",

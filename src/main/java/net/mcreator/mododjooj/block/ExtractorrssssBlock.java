@@ -1,20 +1,78 @@
 
 package net.mcreator.mododjooj.block;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.items.wrapper.SidedInvWrapper;
+import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.items.CapabilityItemHandler;
+import net.minecraftforge.fml.network.NetworkHooks;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.common.util.LazyOptional;
+import net.minecraftforge.common.capabilities.Capability;
+import net.minecraftforge.common.ToolType;
+
+import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.server.ServerWorld;
+import net.minecraft.world.World;
+import net.minecraft.world.IWorldReader;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.math.BlockRayTraceResult;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.NonNullList;
+import net.minecraft.util.Hand;
+import net.minecraft.util.Direction;
+import net.minecraft.util.ActionResultType;
+import net.minecraft.tileentity.TileEntityType;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.tileentity.LockableLootTileEntity;
+import net.minecraft.network.play.server.SUpdateTileEntityPacket;
+import net.minecraft.network.PacketBuffer;
+import net.minecraft.network.NetworkManager;
+import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.BlockItem;
+import net.minecraft.inventory.container.INamedContainerProvider;
+import net.minecraft.inventory.container.Container;
+import net.minecraft.inventory.ItemStackHelper;
+import net.minecraft.inventory.InventoryHelper;
+import net.minecraft.inventory.ISidedInventory;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Block;
+
+import net.mcreator.mododjooj.procedures.ExtractorprocedureProcedure;
+import net.mcreator.mododjooj.itemgroup.TigoguiItemGroup;
+import net.mcreator.mododjooj.gui.ExtractorguisssGui;
+import net.mcreator.mododjooj.MododjoojModElements;
+
+import javax.annotation.Nullable;
+
+import java.util.stream.IntStream;
+import java.util.Random;
+import java.util.Map;
+import java.util.List;
+import java.util.HashMap;
+import java.util.Collections;
+
+import io.netty.buffer.Unpooled;
 
 @MododjoojModElements.ModElement.Tag
-public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
-
-	@ObjectHolder("mododjooj:extractorbasicc")
+public class ExtractorrssssBlock extends MododjoojModElements.ModElement {
+	@ObjectHolder("mododjooj:extractorrssss")
 	public static final Block block = null;
-
-	@ObjectHolder("mododjooj:extractorbasicc")
+	@ObjectHolder("mododjooj:extractorrssss")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-
-	public ExtractorbasiccBlock(MododjoojModElements instance) {
-		super(instance, 107);
-
+	public ExtractorrssssBlock(MododjoojModElements instance) {
+		super(instance, 108);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -26,21 +84,13 @@ public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("extractorbasicc"));
+		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("extractorrssss"));
 	}
-
 	public static class CustomBlock extends Block {
-
-		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
-
 		public CustomBlock() {
-			super(
-
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0));
-
-			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-
-			setRegistryName("extractorbasicc");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE));
+			setRegistryName("extractorrssss");
 		}
 
 		@Override
@@ -49,26 +99,7 @@ public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
 		}
 
 		@Override
-		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(FACING);
-		}
-
-		public BlockState rotate(BlockState state, Rotation rot) {
-			return state.with(FACING, rot.rotate(state.get(FACING)));
-		}
-
-		public BlockState mirror(BlockState state, Mirror mirrorIn) {
-			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
-		}
-
-		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
@@ -92,12 +123,10 @@ public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
 			int z = pos.getZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-
 				ExtractorprocedureProcedure.executeProcedure($_dependencies);
 			}
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
@@ -107,11 +136,9 @@ public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
 		public ActionResultType onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand,
 				BlockRayTraceResult hit) {
 			super.onBlockActivated(state, world, pos, entity, hand, hit);
-
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-
 			if (entity instanceof ServerPlayerEntity) {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
@@ -121,12 +148,11 @@ public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new ExtractorguiGui.GuiContainerMod(id, inventory,
+						return new ExtractorguisssGui.GuiContainerMod(id, inventory,
 								new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
 					}
 				}, new BlockPos(x, y, z));
 			}
-
 			return ActionResultType.SUCCESS;
 		}
 
@@ -161,7 +187,6 @@ public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
 					InventoryHelper.dropInventoryItems(world, pos, (CustomTileEntity) tileentity);
 					world.updateComparatorOutputLevel(pos, this);
 				}
-
 				super.onReplaced(state, world, pos, newState, isMoving);
 			}
 		}
@@ -179,13 +204,10 @@ public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
 			else
 				return 0;
 		}
-
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
-
 		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(2, ItemStack.EMPTY);
-
 		protected CustomTileEntity() {
 			super(tileEntityType);
 		}
@@ -193,23 +215,18 @@ public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
 		@Override
 		public void read(CompoundNBT compound) {
 			super.read(compound);
-
 			if (!this.checkLootAndRead(compound)) {
 				this.stacks = NonNullList.withSize(this.getSizeInventory(), ItemStack.EMPTY);
 			}
-
 			ItemStackHelper.loadAllItems(compound, this.stacks);
-
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT compound) {
 			super.write(compound);
-
 			if (!this.checkLootAndWrite(compound)) {
 				ItemStackHelper.saveAllItems(compound, this.stacks);
 			}
-
 			return compound;
 		}
 
@@ -243,7 +260,7 @@ public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("extractorbasicc");
+			return new StringTextComponent("extractorrssss");
 		}
 
 		@Override
@@ -253,7 +270,7 @@ public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
 
 		@Override
 		public Container createMenu(int id, PlayerInventory player) {
-			return new ExtractorguiGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
+			return new ExtractorguisssGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
 		}
 
 		@Override
@@ -294,14 +311,11 @@ public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
 				return false;
 			return true;
 		}
-
 		private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
-
 		@Override
 		public <T> LazyOptional<T> getCapability(Capability<T> capability, @Nullable Direction facing) {
 			if (!this.removed && facing != null && capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY)
 				return handlers[facing.ordinal()].cast();
-
 			return super.getCapability(capability, facing);
 		}
 
@@ -311,7 +325,5 @@ public class ExtractorbasiccBlock extends MododjoojModElements.ModElement {
 			for (LazyOptional<? extends IItemHandler> handler : handlers)
 				handler.invalidate();
 		}
-
 	}
-
 }
