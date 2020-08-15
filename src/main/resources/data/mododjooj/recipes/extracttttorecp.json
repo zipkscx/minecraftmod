@@ -1,0 +1,34 @@
+{
+  "group": "mododjooj",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone_torch"
+    },
+    {
+      "item": "mododjooj:rediron_ingot"
+    },
+    {
+      "item": "minecraft:redstone_torch"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "mododjooj:basic_machine_block"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "mododjooj:extractorrssss",
+    "count": 1
+  }
+}

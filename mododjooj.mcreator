@@ -1098,6 +1098,71 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "extractorrssss"
+    },
+    {
+      "name": "Extracttttorecp",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extracttttorecp"
+    },
+    {
+      "name": "Manadust",
+      "type": "item",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manadust"
+    },
+    {
+      "name": "Mdfabss",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mdfabss",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manadusttgeneratoggui",
+      "type": "gui",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manadusttgeneratoggui"
+    },
+    {
+      "name": "Manadustgenerator",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manadustgenerator"
     }
   ],
   "variable_elements": [],
@@ -1111,8 +1176,8 @@
       "item.mododjooj.irondust": "Iron Dust",
       "itemGroup.tabtigogui": "Tigo\u0027s Additions",
       "item.mododjooj.cyan_mb": "Cyan Bowl",
-      "item.mododjooj.whitemb": "White Bowl",
       "block.mododjooj.tin_ore": "Tin Ore",
+      "item.mododjooj.whitemb": "White Bowl",
       "block.mododjooj.extractorrssss": "Basic Latex Extractor",
       "block.mododjooj.blue_marble": "Blue Marble",
       "item.mododjooj.blue_mb": "Blue Bowl",
@@ -1156,9 +1221,11 @@
       "block.mododjooj.copper_ore": "Copper Ore",
       "item.mododjooj.compressediron": "Compressed Iron",
       "item.mododjooj.espada": "Espada ",
+      "item.mododjooj.manadust": "Mana Dust",
       "item.mododjooj.redmb": "Red Bowl",
       "item.mododjooj.copper_dust": "Copper Dust",
       "item.mododjooj.steel_shovel": "Steel Shovel",
+      "block.mododjooj.manadustgenerator": "Mana Dust Fabricator",
       "item.mododjooj.steel_sword": "Steel Sword",
       "item.mododjooj.steel_armor_chestplate": "Steel Chestplate",
       "block.mododjooj.green_marble": "Green Marble",

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mododjooj:blocks/baxxinboot",
+    "up": "mododjooj:blocks/maxxintopp",
+    "north": "mododjooj:blocks/manadustgenerator",
+    "east": "mododjooj:blocks/manamachinesides",
+    "south": "mododjooj:blocks/manamachinesides",
+    "west": "mododjooj:blocks/manamachinesides",
+    "particle": "mododjooj:blocks/baxxinboot"
+  }
+}
