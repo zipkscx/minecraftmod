@@ -15,7 +15,7 @@ public class CopperDustItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:copper_dust")
 	public static final Item block = null;
 	public CopperDustItem(MododjoojModElements instance) {
-		super(instance, 15);
+		super(instance, 18);
 	}
 
 	@Override

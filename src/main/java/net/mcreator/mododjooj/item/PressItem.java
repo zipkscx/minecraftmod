@@ -15,7 +15,7 @@ public class PressItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:press")
 	public static final Item block = null;
 	public PressItem(MododjoojModElements instance) {
-		super(instance, 101);
+		super(instance, 53);
 	}
 
 	@Override

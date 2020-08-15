@@ -20,7 +20,7 @@ import java.util.Map;
 @MododjoojModElements.ModElement.Tag
 public class GeneratorprocedureProcedure extends MododjoojModElements.ModElement {
 	public GeneratorprocedureProcedure(MododjoojModElements instance) {
-		super(instance, 72);
+		super(instance, 85);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

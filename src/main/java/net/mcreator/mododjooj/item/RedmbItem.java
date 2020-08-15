@@ -15,7 +15,7 @@ public class RedmbItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:redmb")
 	public static final Item block = null;
 	public RedmbItem(MododjoojModElements instance) {
-		super(instance, 7);
+		super(instance, 10);
 	}
 
 	@Override

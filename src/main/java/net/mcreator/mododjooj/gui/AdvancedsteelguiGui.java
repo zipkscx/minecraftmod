@@ -48,7 +48,7 @@ public class AdvancedsteelguiGui extends MododjoojModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public AdvancedsteelguiGui(MododjoojModElements instance) {
-		super(instance, 69);
+		super(instance, 82);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

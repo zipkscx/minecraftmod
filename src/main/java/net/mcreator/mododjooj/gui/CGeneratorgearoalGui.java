@@ -48,7 +48,7 @@ public class CGeneratorgearoalGui extends MododjoojModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public CGeneratorgearoalGui(MododjoojModElements instance) {
-		super(instance, 71);
+		super(instance, 84);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

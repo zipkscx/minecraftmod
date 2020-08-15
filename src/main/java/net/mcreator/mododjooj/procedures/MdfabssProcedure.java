@@ -19,7 +19,7 @@ import java.util.Map;
 @MododjoojModElements.ModElement.Tag
 public class MdfabssProcedure extends MododjoojModElements.ModElement {
 	public MdfabssProcedure(MododjoojModElements instance) {
-		super(instance, 110);
+		super(instance, 113);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

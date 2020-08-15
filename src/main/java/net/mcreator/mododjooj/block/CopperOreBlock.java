@@ -45,7 +45,7 @@ public class CopperOreBlock extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:copper_ore")
 	public static final Block block = null;
 	public CopperOreBlock(MododjoojModElements instance) {
-		super(instance, 39);
+		super(instance, 45);
 	}
 
 	@Override

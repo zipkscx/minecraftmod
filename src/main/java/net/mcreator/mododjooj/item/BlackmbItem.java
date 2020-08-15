@@ -15,7 +15,7 @@ public class BlackmbItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:blackmb")
 	public static final Item block = null;
 	public BlackmbItem(MododjoojModElements instance) {
-		super(instance, 13);
+		super(instance, 16);
 	}
 
 	@Override

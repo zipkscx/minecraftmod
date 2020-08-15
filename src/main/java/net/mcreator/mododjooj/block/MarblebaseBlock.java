@@ -23,7 +23,7 @@ public class MarblebaseBlock extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:marblebase")
 	public static final Block block = null;
 	public MarblebaseBlock(MododjoojModElements instance) {
-		super(instance, 30);
+		super(instance, 36);
 	}
 
 	@Override

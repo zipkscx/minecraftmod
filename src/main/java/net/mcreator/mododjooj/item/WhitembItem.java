@@ -15,7 +15,7 @@ public class WhitembItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:whitemb")
 	public static final Item block = null;
 	public WhitembItem(MododjoojModElements instance) {
-		super(instance, 6);
+		super(instance, 9);
 	}
 
 	@Override

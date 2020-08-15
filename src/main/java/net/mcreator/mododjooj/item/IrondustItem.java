@@ -15,7 +15,7 @@ public class IrondustItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:irondust")
 	public static final Item block = null;
 	public IrondustItem(MododjoojModElements instance) {
-		super(instance, 19);
+		super(instance, 22);
 	}
 
 	@Override

@@ -22,7 +22,7 @@ import java.util.Map;
 @MododjoojModElements.ModElement.Tag
 public class AdvancedProcedureProcedure extends MododjoojModElements.ModElement {
 	public AdvancedProcedureProcedure(MododjoojModElements instance) {
-		super(instance, 70);
+		super(instance, 83);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

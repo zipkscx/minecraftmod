@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mododjooj:blocks/manablock",
+    "up": "mododjooj:blocks/manablock",
+    "north": "mododjooj:blocks/manablock",
+    "east": "mododjooj:blocks/manablock",
+    "south": "mododjooj:blocks/manablock",
+    "west": "mododjooj:blocks/manablock",
+    "particle": "mododjooj:blocks/manablock"
+  }
+}

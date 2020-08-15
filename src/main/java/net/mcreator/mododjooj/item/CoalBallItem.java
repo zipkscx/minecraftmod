@@ -15,7 +15,7 @@ public class CoalBallItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:coal_ball")
 	public static final Item block = null;
 	public CoalBallItem(MododjoojModElements instance) {
-		super(instance, 41);
+		super(instance, 47);
 	}
 
 	@Override

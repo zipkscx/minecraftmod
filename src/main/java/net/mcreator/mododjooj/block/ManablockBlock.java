@@ -19,11 +19,11 @@ import java.util.List;
 import java.util.Collections;
 
 @MododjoojModElements.ModElement.Tag
-public class CyanMarbleBlock extends MododjoojModElements.ModElement {
-	@ObjectHolder("mododjooj:cyan_marble")
+public class ManablockBlock extends MododjoojModElements.ModElement {
+	@ObjectHolder("mododjooj:manablock")
 	public static final Block block = null;
-	public CyanMarbleBlock(MododjoojModElements instance) {
-		super(instance, 41);
+	public ManablockBlock(MododjoojModElements instance) {
+		super(instance, 34);
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class CyanMarbleBlock extends MododjoojModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0));
-			setRegistryName("cyan_marble");
+			setRegistryName("manablock");
 		}
 
 		@Override

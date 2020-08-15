@@ -15,7 +15,7 @@ public class CopperingotItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:copperingot")
 	public static final Item block = null;
 	public CopperingotItem(MododjoojModElements instance) {
-		super(instance, 22);
+		super(instance, 26);
 	}
 
 	@Override

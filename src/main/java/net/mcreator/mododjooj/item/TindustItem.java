@@ -15,7 +15,7 @@ public class TindustItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:tindust")
 	public static final Item block = null;
 	public TindustItem(MododjoojModElements instance) {
-		super(instance, 16);
+		super(instance, 19);
 	}
 
 	@Override

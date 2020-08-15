@@ -15,7 +15,7 @@ public class PinkMBItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:pink_mb")
 	public static final Item block = null;
 	public PinkMBItem(MododjoojModElements instance) {
-		super(instance, 11);
+		super(instance, 14);
 	}
 
 	@Override

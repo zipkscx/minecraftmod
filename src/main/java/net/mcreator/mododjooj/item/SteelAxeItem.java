@@ -16,7 +16,7 @@ public class SteelAxeItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:steel_axe")
 	public static final Item block = null;
 	public SteelAxeItem(MododjoojModElements instance) {
-		super(instance, 43);
+		super(instance, 31);
 	}
 
 	@Override

@@ -25,7 +25,7 @@ import java.util.Map;
 @MododjoojModElements.ModElement.Tag
 public class SKEEEProcedure extends MododjoojModElements.ModElement {
 	public SKEEEProcedure(MododjoojModElements instance) {
-		super(instance, 62);
+		super(instance, 75);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

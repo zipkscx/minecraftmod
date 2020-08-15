@@ -15,7 +15,7 @@ public class GreenmbItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:greenmb")
 	public static final Item block = null;
 	public GreenmbItem(MododjoojModElements instance) {
-		super(instance, 12);
+		super(instance, 15);
 	}
 
 	@Override

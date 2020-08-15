@@ -16,7 +16,7 @@ public class SteelHoeItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:steel_hoe")
 	public static final Item block = null;
 	public SteelHoeItem(MododjoojModElements instance) {
-		super(instance, 28);
+		super(instance, 32);
 	}
 
 	@Override

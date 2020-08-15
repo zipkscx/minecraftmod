@@ -21,12 +21,13 @@ import net.mcreator.mododjooj.item.BronzeIngotItem;
 import net.mcreator.mododjooj.MododjoojModElements;
 
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.Random;
 import java.util.Map;
 
 @MododjoojModElements.ModElement.Tag
 public class CompressorsimpleeProcedure extends MododjoojModElements.ModElement {
 	public CompressorsimpleeProcedure(MododjoojModElements instance) {
-		super(instance, 95);
+		super(instance, 108);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -191,6 +192,23 @@ public class CompressorsimpleeProcedure extends MododjoojModElements.ModElement 
 							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
+								}
+							});
+						}
+					}
+					{
+						TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+						if (_ent != null) {
+							final int _sltid = (int) (2);
+							final int _amount = (int) 1;
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+								if (capability instanceof IItemHandlerModifiable) {
+									ItemStack _stk = capability.getStackInSlot(_sltid).copy();
+									if (_stk.attemptDamageItem(_amount, new Random(), null)) {
+										_stk.shrink(1);
+										_stk.setDamage(0);
+									}
+									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
 								}
 							});
 						}

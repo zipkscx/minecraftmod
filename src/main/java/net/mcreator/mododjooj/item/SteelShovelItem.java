@@ -16,7 +16,7 @@ public class SteelShovelItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:steel_shovel")
 	public static final Item block = null;
 	public SteelShovelItem(MododjoojModElements instance) {
-		super(instance, 27);
+		super(instance, 30);
 	}
 
 	@Override

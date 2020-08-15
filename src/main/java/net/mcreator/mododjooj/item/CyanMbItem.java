@@ -15,7 +15,7 @@ public class CyanMbItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:cyan_mb")
 	public static final Item block = null;
 	public CyanMbItem(MododjoojModElements instance) {
-		super(instance, 10);
+		super(instance, 13);
 	}
 
 	@Override

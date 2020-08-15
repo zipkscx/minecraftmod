@@ -15,7 +15,7 @@ public class SteelDustItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:steel_dust")
 	public static final Item block = null;
 	public SteelDustItem(MododjoojModElements instance) {
-		super(instance, 18);
+		super(instance, 21);
 	}
 
 	@Override

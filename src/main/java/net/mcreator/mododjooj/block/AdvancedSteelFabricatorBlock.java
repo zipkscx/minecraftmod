@@ -80,7 +80,7 @@ public class AdvancedSteelFabricatorBlock extends MododjoojModElements.ModElemen
 	@ObjectHolder("mododjooj:advanced_steel_fabricator")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public AdvancedSteelFabricatorBlock(MododjoojModElements instance) {
-		super(instance, 4);
+		super(instance, 6);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

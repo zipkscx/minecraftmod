@@ -16,7 +16,7 @@ public class EspadaItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:espada")
 	public static final Item block = null;
 	public EspadaItem(MododjoojModElements instance) {
-		super(instance, 105);
+		super(instance, 55);
 	}
 
 	@Override

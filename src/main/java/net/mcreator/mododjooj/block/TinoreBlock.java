@@ -38,7 +38,7 @@ public class TinoreBlock extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:tin_ore")
 	public static final Block block = null;
 	public TinoreBlock(MododjoojModElements instance) {
-		super(instance, 40);
+		super(instance, 46);
 	}
 
 	@Override

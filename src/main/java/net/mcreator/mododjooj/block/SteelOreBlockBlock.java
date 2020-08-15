@@ -24,7 +24,7 @@ public class SteelOreBlockBlock extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:steel_ore_block")
 	public static final Block block = null;
 	public SteelOreBlockBlock(MododjoojModElements instance) {
-		super(instance, 24);
+		super(instance, 35);
 	}
 
 	@Override

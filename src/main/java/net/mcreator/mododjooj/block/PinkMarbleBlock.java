@@ -23,7 +23,7 @@ public class PinkMarbleBlock extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:pink_marble")
 	public static final Block block = null;
 	public PinkMarbleBlock(MododjoojModElements instance) {
-		super(instance, 36);
+		super(instance, 42);
 	}
 
 	@Override

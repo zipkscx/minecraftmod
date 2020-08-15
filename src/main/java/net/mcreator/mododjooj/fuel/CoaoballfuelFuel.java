@@ -13,7 +13,7 @@ import net.mcreator.mododjooj.MododjoojModElements;
 @MododjoojModElements.ModElement.Tag
 public class CoaoballfuelFuel extends MododjoojModElements.ModElement {
 	public CoaoballfuelFuel(MododjoojModElements instance) {
-		super(instance, 67);
+		super(instance, 80);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

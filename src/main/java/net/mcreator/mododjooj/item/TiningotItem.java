@@ -15,7 +15,7 @@ public class TiningotItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:tiningot")
 	public static final Item block = null;
 	public TiningotItem(MododjoojModElements instance) {
-		super(instance, 21);
+		super(instance, 25);
 	}
 
 	@Override

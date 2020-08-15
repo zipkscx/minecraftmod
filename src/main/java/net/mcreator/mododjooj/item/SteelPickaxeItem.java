@@ -16,7 +16,7 @@ public class SteelPickaxeItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:steel_pickaxe")
 	public static final Item block = null;
 	public SteelPickaxeItem(MododjoojModElements instance) {
-		super(instance, 25);
+		super(instance, 28);
 	}
 
 	@Override

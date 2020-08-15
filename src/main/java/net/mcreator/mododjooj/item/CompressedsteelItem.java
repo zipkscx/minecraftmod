@@ -15,7 +15,7 @@ public class CompressedsteelItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:compressedsteel")
 	public static final Item block = null;
 	public CompressedsteelItem(MododjoojModElements instance) {
-		super(instance, 99);
+		super(instance, 52);
 	}
 
 	@Override

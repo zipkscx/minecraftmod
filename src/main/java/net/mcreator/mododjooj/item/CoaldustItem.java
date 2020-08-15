@@ -15,7 +15,7 @@ public class CoaldustItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:coaldust")
 	public static final Item block = null;
 	public CoaldustItem(MododjoojModElements instance) {
-		super(instance, 17);
+		super(instance, 20);
 	}
 
 	@Override

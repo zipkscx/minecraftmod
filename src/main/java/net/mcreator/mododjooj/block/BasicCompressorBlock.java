@@ -78,7 +78,7 @@ public class BasicCompressorBlock extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:basic_compressor")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public BasicCompressorBlock(MododjoojModElements instance) {
-		super(instance, 102);
+		super(instance, 5);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

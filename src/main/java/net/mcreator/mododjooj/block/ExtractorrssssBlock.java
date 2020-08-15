@@ -78,7 +78,7 @@ public class ExtractorrssssBlock extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:extractorrssss")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public ExtractorrssssBlock(MododjoojModElements instance) {
-		super(instance, 108);
+		super(instance, 4);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

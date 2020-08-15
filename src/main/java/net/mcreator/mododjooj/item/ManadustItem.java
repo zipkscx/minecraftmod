@@ -17,7 +17,7 @@ public class ManadustItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:manadust")
 	public static final Item block = null;
 	public ManadustItem(MododjoojModElements instance) {
-		super(instance, 110);
+		super(instance, 23);
 	}
 
 	@Override

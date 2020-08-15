@@ -15,7 +15,7 @@ public class SteelIngotItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:steel_ingot")
 	public static final Item block = null;
 	public SteelIngotItem(MododjoojModElements instance) {
-		super(instance, 42);
+		super(instance, 48);
 	}
 
 	@Override

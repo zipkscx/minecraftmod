@@ -20,7 +20,7 @@ import java.util.Map;
 @MododjoojModElements.ModElement.Tag
 public class ExtractorprocedureProcedure extends MododjoojModElements.ModElement {
 	public ExtractorprocedureProcedure(MododjoojModElements instance) {
-		super(instance, 106);
+		super(instance, 110);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

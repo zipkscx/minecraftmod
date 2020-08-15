@@ -15,7 +15,7 @@ public class CompressedironItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:compressediron")
 	public static final Item block = null;
 	public CompressedironItem(MododjoojModElements instance) {
-		super(instance, 97);
+		super(instance, 50);
 	}
 
 	@Override

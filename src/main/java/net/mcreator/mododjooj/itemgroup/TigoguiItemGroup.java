@@ -13,7 +13,7 @@ import net.mcreator.mododjooj.MododjoojModElements;
 @MododjoojModElements.ModElement.Tag
 public class TigoguiItemGroup extends MododjoojModElements.ModElement {
 	public TigoguiItemGroup(MododjoojModElements instance) {
-		super(instance, 60);
+		super(instance, 73);
 	}
 
 	@Override

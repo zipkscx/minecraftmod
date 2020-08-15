@@ -29,7 +29,7 @@ public class SteelArmorItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:steel_armor_boots")
 	public static final Item boots = null;
 	public SteelArmorItem(MododjoojModElements instance) {
-		super(instance, 29);
+		super(instance, 33);
 	}
 
 	@Override

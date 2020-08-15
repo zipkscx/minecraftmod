@@ -15,7 +15,7 @@ public class BronzedustItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:bronzedust")
 	public static final Item block = null;
 	public BronzedustItem(MododjoojModElements instance) {
-		super(instance, 14);
+		super(instance, 17);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class RedironIngotItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:rediron_ingot")
 	public static final Item block = null;
 	public RedironIngotItem(MododjoojModElements instance) {
-		super(instance, 20);
+		super(instance, 24);
 	}
 
 	@Override

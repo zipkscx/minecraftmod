@@ -30,7 +30,7 @@ import java.util.Map;
 @MododjoojModElements.ModElement.Tag
 public class MaceratorprocedureProcedure extends MododjoojModElements.ModElement {
 	public MaceratorprocedureProcedure(MododjoojModElements instance) {
-		super(instance, 65);
+		super(instance, 78);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

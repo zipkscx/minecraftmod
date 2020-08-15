@@ -78,7 +78,7 @@ public class CoalGeneratorBlock extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:coal_generator")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public CoalGeneratorBlock(MododjoojModElements instance) {
-		super(instance, 5);
+		super(instance, 7);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

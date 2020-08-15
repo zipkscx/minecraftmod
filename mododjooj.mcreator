@@ -4,7 +4,7 @@
     {
       "name": "Whitemb",
       "type": "item",
-      "sortid": 6,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -13,7 +13,7 @@
     {
       "name": "Redmb",
       "type": "item",
-      "sortid": 7,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "Yellowmb",
       "type": "item",
-      "sortid": 8,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "BlueMb",
       "type": "item",
-      "sortid": 9,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "CyanMb",
       "type": "item",
-      "sortid": 10,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "PinkMB",
       "type": "item",
-      "sortid": 11,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "Greenmb",
       "type": "item",
-      "sortid": 12,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "Whitercp",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -76,7 +76,7 @@
     {
       "name": "Redrcp",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -85,7 +85,7 @@
     {
       "name": "Yellorcp",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "Bluercp",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "Cyanrcp",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -112,7 +112,7 @@
     {
       "name": "Pinkrcp",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "Greenrcp",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "Blackmb",
       "type": "item",
-      "sortid": 13,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "Blackrcp",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -148,7 +148,7 @@
     {
       "name": "Marblebase",
       "type": "block",
-      "sortid": 30,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -157,7 +157,7 @@
     {
       "name": "BlackMarble",
       "type": "block",
-      "sortid": 31,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -166,7 +166,7 @@
     {
       "name": "RedMarble",
       "type": "block",
-      "sortid": 32,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -175,7 +175,7 @@
     {
       "name": "YellowMarble",
       "type": "block",
-      "sortid": 33,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +184,7 @@
     {
       "name": "BlueMarble",
       "type": "block",
-      "sortid": 34,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -193,7 +193,7 @@
     {
       "name": "CyanMarble",
       "type": "block",
-      "sortid": 35,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -202,7 +202,7 @@
     {
       "name": "PinkMarble",
       "type": "block",
-      "sortid": 36,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -211,7 +211,7 @@
     {
       "name": "GreenMarble",
       "type": "block",
-      "sortid": 37,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -220,7 +220,7 @@
     {
       "name": "BlackMM",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -229,7 +229,7 @@
     {
       "name": "Redmm",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -238,7 +238,7 @@
     {
       "name": "YellowMM",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -247,7 +247,7 @@
     {
       "name": "BlueMM",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -256,7 +256,7 @@
     {
       "name": "CyanMM",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -265,7 +265,7 @@
     {
       "name": "PinkMM",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -274,7 +274,7 @@
     {
       "name": "GreenMM",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -283,7 +283,7 @@
     {
       "name": "Maxin1",
       "type": "gui",
-      "sortid": 59,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -301,7 +301,7 @@
     {
       "name": "CoalBall",
       "type": "item",
-      "sortid": 41,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -310,7 +310,7 @@
     {
       "name": "Tigogui",
       "type": "tab",
-      "sortid": 60,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -319,7 +319,7 @@
     {
       "name": "SteelIngot",
       "type": "item",
-      "sortid": 42,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -328,7 +328,7 @@
     {
       "name": "CoalBallss",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -337,7 +337,7 @@
     {
       "name": "SKEEE",
       "type": "procedure",
-      "sortid": 62,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -366,7 +366,7 @@
     {
       "name": "Steelmaxinnon",
       "type": "block",
-      "sortid": 63,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -384,7 +384,7 @@
     {
       "name": "Simplemaceratorgui",
       "type": "gui",
-      "sortid": 64,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -393,7 +393,7 @@
     {
       "name": "Maceratorprocedure",
       "type": "procedure",
-      "sortid": 65,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -422,7 +422,7 @@
     {
       "name": "Coaldust",
       "type": "item",
-      "sortid": 17,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -431,7 +431,7 @@
     {
       "name": "SteelDust",
       "type": "item",
-      "sortid": 18,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -440,7 +440,7 @@
     {
       "name": "Irondust",
       "type": "item",
-      "sortid": 19,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -458,7 +458,7 @@
     {
       "name": "RedironIngot",
       "type": "item",
-      "sortid": 20,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -467,7 +467,7 @@
     {
       "name": "Redironrecpt",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -476,7 +476,7 @@
     {
       "name": "Coaoballfuel",
       "type": "fuel",
-      "sortid": 67,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -485,7 +485,7 @@
     {
       "name": "Bmbrcpt",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -494,7 +494,7 @@
     {
       "name": "AdvancedSteelFabricator",
       "type": "block",
-      "sortid": 4,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -503,7 +503,7 @@
     {
       "name": "Advancedsteelgui",
       "type": "gui",
-      "sortid": 69,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -512,7 +512,7 @@
     {
       "name": "AdvancedProcedure",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -541,7 +541,7 @@
     {
       "name": "CGeneratorgearoal",
       "type": "gui",
-      "sortid": 71,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -550,7 +550,7 @@
     {
       "name": "CoalGenerator",
       "type": "block",
-      "sortid": 5,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -559,7 +559,7 @@
     {
       "name": "Generatorprocedure",
       "type": "procedure",
-      "sortid": 72,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -588,7 +588,7 @@
     {
       "name": "SteelOreBlock",
       "type": "block",
-      "sortid": 24,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -597,7 +597,7 @@
     {
       "name": "SteelOreBlockRecipe",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -606,7 +606,7 @@
     {
       "name": "SteelBlockOreRecipe",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -615,7 +615,7 @@
     {
       "name": "SteelPickaxe",
       "type": "tool",
-      "sortid": 25,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -624,7 +624,7 @@
     {
       "name": "SteelAxe",
       "type": "tool",
-      "sortid": 43,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -633,7 +633,7 @@
     {
       "name": "SteelSword",
       "type": "tool",
-      "sortid": 26,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -642,7 +642,7 @@
     {
       "name": "SteelShovel",
       "type": "tool",
-      "sortid": 27,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -651,7 +651,7 @@
     {
       "name": "SteelHoe",
       "type": "tool",
-      "sortid": 28,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -660,7 +660,7 @@
     {
       "name": "SteelPickaxeRecipe",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -669,7 +669,7 @@
     {
       "name": "SteelAxeRecipe",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -678,7 +678,7 @@
     {
       "name": "SteelSwordRecipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -687,7 +687,7 @@
     {
       "name": "SteelShovelRecipe",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -696,7 +696,7 @@
     {
       "name": "SteelHoeRecipe",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -705,7 +705,7 @@
     {
       "name": "SteelArmor",
       "type": "armor",
-      "sortid": 29,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -720,7 +720,7 @@
     {
       "name": "SteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -729,7 +729,7 @@
     {
       "name": "SteelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -738,7 +738,7 @@
     {
       "name": "SteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -747,7 +747,7 @@
     {
       "name": "SteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -756,7 +756,7 @@
     {
       "name": "CopperOre",
       "type": "block",
-      "sortid": 39,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -765,7 +765,7 @@
     {
       "name": "Tinore",
       "type": "block",
-      "sortid": 40,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -774,7 +774,7 @@
     {
       "name": "Tiningot",
       "type": "item",
-      "sortid": 21,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -783,7 +783,7 @@
     {
       "name": "Copperingot",
       "type": "item",
-      "sortid": 22,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -792,7 +792,7 @@
     {
       "name": "Tindust",
       "type": "item",
-      "sortid": 16,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -801,7 +801,7 @@
     {
       "name": "CopperDust",
       "type": "item",
-      "sortid": 15,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -810,7 +810,7 @@
     {
       "name": "Tindustrecp",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -819,7 +819,7 @@
     {
       "name": "Cpprecp",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -828,7 +828,7 @@
     {
       "name": "Tinrcpt2",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -837,7 +837,7 @@
     {
       "name": "Coppprcp",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -846,7 +846,7 @@
     {
       "name": "Steeeelrcppp",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -855,7 +855,7 @@
     {
       "name": "Marble",
       "type": "block",
-      "sortid": 38,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -864,7 +864,7 @@
     {
       "name": "Marblebiricks",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -873,7 +873,7 @@
     {
       "name": "Steeldistrcp",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -882,7 +882,7 @@
     {
       "name": "Bronzedust",
       "type": "item",
-      "sortid": 14,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -891,7 +891,7 @@
     {
       "name": "BronzeIngot",
       "type": "item",
-      "sortid": 23,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -900,7 +900,7 @@
     {
       "name": "Bronzerecp",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -909,7 +909,7 @@
     {
       "name": "Bronesmelt",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -918,7 +918,7 @@
     {
       "name": "Maceratorreeecp",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -927,7 +927,7 @@
     {
       "name": "Steeelfss",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -936,7 +936,7 @@
     {
       "name": "Compressorsimplee",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -965,7 +965,7 @@
     {
       "name": "CompressedBronze",
       "type": "item",
-      "sortid": 96,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -974,7 +974,7 @@
     {
       "name": "Compressediron",
       "type": "item",
-      "sortid": 97,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -983,7 +983,7 @@
     {
       "name": "Compressedrediron",
       "type": "item",
-      "sortid": 98,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -992,7 +992,7 @@
     {
       "name": "Compressedsteel",
       "type": "item",
-      "sortid": 99,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1001,7 +1001,7 @@
     {
       "name": "Compressorgui",
       "type": "gui",
-      "sortid": 100,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1010,7 +1010,7 @@
     {
       "name": "Press",
       "type": "item",
-      "sortid": 101,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1019,7 +1019,7 @@
     {
       "name": "BasicCompressor",
       "type": "block",
-      "sortid": 102,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1028,7 +1028,7 @@
     {
       "name": "Resinaaa",
       "type": "item",
-      "sortid": 104,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1037,7 +1037,7 @@
     {
       "name": "Espada",
       "type": "tool",
-      "sortid": 105,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1046,7 +1046,7 @@
     {
       "name": "Extractorprocedure",
       "type": "procedure",
-      "sortid": 106,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1075,7 +1075,7 @@
     {
       "name": "Rainbow",
       "type": "item",
-      "sortid": 107,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1084,7 +1084,7 @@
     {
       "name": "Extractorguisss",
       "type": "gui",
-      "sortid": 108,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1093,7 +1093,7 @@
     {
       "name": "Extractorrssss",
       "type": "block",
-      "sortid": 108,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1102,7 +1102,7 @@
     {
       "name": "Extracttttorecp",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1111,7 +1111,7 @@
     {
       "name": "Manadust",
       "type": "item",
-      "sortid": 110,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1120,7 +1120,7 @@
     {
       "name": "Mdfabss",
       "type": "procedure",
-      "sortid": 110,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1149,7 +1149,7 @@
     {
       "name": "Manadusttgeneratoggui",
       "type": "gui",
-      "sortid": 110,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1158,11 +1158,20 @@
     {
       "name": "Manadustgenerator",
       "type": "block",
-      "sortid": 111,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "manadustgenerator"
+    },
+    {
+      "name": "Manablock",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manablock"
     }
   ],
   "variable_elements": [],
@@ -1176,8 +1185,8 @@
       "item.mododjooj.irondust": "Iron Dust",
       "itemGroup.tabtigogui": "Tigo\u0027s Additions",
       "item.mododjooj.cyan_mb": "Cyan Bowl",
-      "block.mododjooj.tin_ore": "Tin Ore",
       "item.mododjooj.whitemb": "White Bowl",
+      "block.mododjooj.tin_ore": "Tin Ore",
       "block.mododjooj.extractorrssss": "Basic Latex Extractor",
       "block.mododjooj.blue_marble": "Blue Marble",
       "item.mododjooj.blue_mb": "Blue Bowl",
@@ -1203,6 +1212,7 @@
       "item.mododjooj.steel_armor_boots": "Steel Boots",
       "item.mododjooj.compressedrediron": "Compressed Rediron",
       "item.mododjooj.tiningot": "Tin Ingot",
+      "block.mododjooj.manablock": "Mana Block",
       "block.mododjooj.coal_generator": "Coal Generator",
       "item.mododjooj.compressedsteel": "Compressed Steel",
       "block.mododjooj.yellow_marble": "Yellow Marble",

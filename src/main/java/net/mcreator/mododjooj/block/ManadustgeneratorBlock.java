@@ -77,7 +77,7 @@ public class ManadustgeneratorBlock extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:manadustgenerator")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public ManadustgeneratorBlock(MododjoojModElements instance) {
-		super(instance, 111);
+		super(instance, 8);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

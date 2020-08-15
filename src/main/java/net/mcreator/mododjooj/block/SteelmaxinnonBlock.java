@@ -78,7 +78,7 @@ public class SteelmaxinnonBlock extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:steelmaxinnon")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public SteelmaxinnonBlock(MododjoojModElements instance) {
-		super(instance, 63);
+		super(instance, 76);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

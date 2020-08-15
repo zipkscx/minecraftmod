@@ -15,7 +15,7 @@ public class ResinaaaItem extends MododjoojModElements.ModElement {
 	@ObjectHolder("mododjooj:resinaaa")
 	public static final Item block = null;
 	public ResinaaaItem(MododjoojModElements instance) {
-		super(instance, 104);
+		super(instance, 54);
 	}
 
 	@Override
